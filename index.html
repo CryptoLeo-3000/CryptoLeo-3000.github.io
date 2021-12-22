@@ -10,11 +10,11 @@
 <body>
     <div class="header-nav">
         <div class="nav-options">
-            <p class="aboutme">ABOUT ME</p>
+            <a href="#section-aboutme" class="aboutme">ABOUT ME</a>
             <div class="breaker" style="width: 200px;"></div>
-            <p class="myworks">MY WORKS</p>
+            <a href="OtherPages/MyWorks/works.html" class="myworks">MY WORKS</a>
             <div class="breaker" style="width: 200px;"></div>
-            <p class="contactme">CONTACT ME</p>
+            <a href="#section-contactme" class="contactme">CONTACT ME</a>
         </div>
     </div>
 
@@ -24,7 +24,7 @@
 
     <div class="section-space-2"></div>
 
-    <div class="aboutme-section">
+    <div id="section-aboutme" class="aboutme-section">
         <div class="aboutme-texts">
             <div class="aboutme-title">KNOW MORE</div>
             <div class="space-between"></div>
@@ -36,7 +36,7 @@
 
     <div class="section-space-2"></div>
 
-    <div class="contactme-section">
+    <div id="section-contactme" class="contactme-section">
         <p class="get-in-touch">Get in Touch</p>
         <a class="gmail-profile" href="https://mail.google.com/mail/?view=cm&fs=1&to=kartikpadave.developer@gmail.com&bcc=padavekartik@gmail.com" target="_blank">
             <img class="gmail-logo" src="Images/gmail-logo.png"/>
@@ -57,5 +57,26 @@
             <img class="linktree-logo" src="Images/lintree-logo.png"/>
         </a>
     </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <script>
+        mybutton = document.getElementById("myBtn");
+
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 </html>
