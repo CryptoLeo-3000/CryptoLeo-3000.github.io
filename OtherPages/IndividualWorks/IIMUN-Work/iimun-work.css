@@ -1,37 +1,82 @@
-.header {
-    padding-top: 100px;
+body {
+  background-color: #181818;
+  margin: 0 0 0 0;
 }
 
-.IIMUN-title {
-    font-size: 70px;
-    line-height: 100%;
-    text-align: center;
-    color: black;
-    float: right;
-    padding-right: 300px;
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+  
+::-webkit-scrollbar-track {
+  background: #A9A9A9;
+  border-radius: 10px;
 }
 
-.IIMUN-logo {
-    width: 300px;
-    height: 350px;
-    padding-left: 100px;
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #808080;
 }
 
-.organization {
-    padding: 50px 100px 0 100px;
+::-webkit-scrollbar-thumb:hover {
+  background: #383838;
 }
 
-.description {
-    font-size: 20px;
+.iimunwork {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
 }
 
-.proto-link {
-    text-decoration: none;
+.work-title {
+  font-size: 500%;
+  font-weight: 700;
+  color: white;
+  font-family: 'Hind Siliguri', sans-serif;
 }
 
-* {box-sizing:border-box}
+.org-logo {
+  width: 20%;
+  border-radius: 30px;
+}
 
-/* Slideshow container */
+.Aboutorganization, .Workorganization, .Prototypeapp {
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.Gallery {
+  width: 1358px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.Abouttitle, .Worktitle, .Prototypetitle, .Gallerytitle {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 100%;
+  color: white;
+}
+
+.Abouttext, .Worktext, .Prototypetext {
+  width: 1358px;
+  font-size: 24px;
+  line-height: 100%;
+  text-align: justify;
+  color: white;
+  text-decoration: none;
+}
+
 .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -101,6 +146,7 @@
 }
 
 .ss-images {
-    width: 30%;
-    padding: 30px 0 0 100px;
+  width: 30%;
+  padding-left: 3%;
+  border-radius: 30px;
 }
