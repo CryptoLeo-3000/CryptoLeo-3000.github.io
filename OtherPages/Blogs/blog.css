@@ -69,3 +69,17 @@ body {
 .space-division {
     height: 30px;
 }
+
+.under-development {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.design-develop {
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Hind Siliguri', sans-serif;
+    text-align: center;
+}
