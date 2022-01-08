@@ -41,23 +41,13 @@ body {
   border-radius: 30px;
 }
 
-.Aboutorganization, .Workorganization, .Prototypeapp {
-  padding-left: 20px;
-  padding-right: 20px;
+.Aboutorganization, .Workorganization, .Prototypeapp, .Gallery {
+  width: 90%;
+  padding-left: 5%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  font-family: 'Hind Siliguri', sans-serif;
-}
-
-.Gallery {
-  width: 1358px;
-  padding-left: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-start;
   font-family: 'Hind Siliguri', sans-serif;
 }
 
@@ -69,7 +59,7 @@ body {
 }
 
 .Abouttext, .Worktext, .Prototypetext {
-  width: 1358px;
+  width: 90%;
   font-size: 24px;
   line-height: 100%;
   text-align: justify;
@@ -83,7 +73,6 @@ body {
   margin: auto;
 }
 
-/* Hide the images by default */
 .mySlides {
   display: none;
 }
