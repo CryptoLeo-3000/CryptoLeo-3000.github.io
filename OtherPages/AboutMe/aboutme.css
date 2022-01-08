@@ -30,7 +30,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background: radial-gradient(92.33% 4771.2% at 51.77% 100%, #0000FF 0%, #9900CC 43.14%, #0000FF 100%);
+    background: radial-gradient(60% 4771.2% at 20% 70%, #0000FF 0%, #9900CC 43.14%, #0000FF 100%);
     font-family: 'Francois One', sans-serif;
 }
 
