@@ -1,5 +1,6 @@
 # CryptoLeo-3000.github.io
-Official repository for Personal Portfolio of Kartik Padave i.e. CryptoLeo-3000.
+
+**[Link to the Website](https://cryptoleo-3000.github.io/)**
 
 ## Tech Stack used:
 
