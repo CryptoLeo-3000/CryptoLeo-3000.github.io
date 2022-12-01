@@ -17,3 +17,5 @@
 **[Github](https://github.com/CryptoLeo-3000/CryptoLeo-3000.github.io)**
 
 **[Inpirations](https://docs.google.com/document/d/1XJendLfvc_ZnXKofOmqMIpe1jZAih1OT631rRBSzLHk/edit?usp=sharing)**
+
+**[Image Editor](https://pixlr.com/)**
